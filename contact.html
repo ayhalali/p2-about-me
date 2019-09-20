@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"> -->
+
+  <title>Contat me</title>
+
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/"> -->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="starter-template.css" rel="stylesheet">
+</head >
+
+
+<body class = "bgimg">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!-- <a class="navbar-brand" href="">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="calc.html">Interactive app</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <header class="container-fluid">
+    <h1>Ali AlAli</h1>
+    
+    <hr/>
+  </header>
+
+<main class="container">
+
+    <div class="container">
+        <form action="action_page.php">
+          <section class="col-md-10">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your fist name" autofocus>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="emailaddress" placeholder="Enter your email address">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <form method="post" action="mailto:ayhalali@hotmail.com" >
+              <input type="submit" value="Send Email" /> 
+            </form>
+          </section>
+        </form>
+    </div>
+<br><br><br><br><br>
+</main><!-- /.container -->
+  
+    <footer class="container-fluid">
+      <div id="footer">
+        <a href="https://www.facebook.com/ayhalali" class="sm sm-facebook" target="_blank"><img class="sm-facebook" src="facebook.png"></a>
+        <a href="https://twitter.com/Al3liay" class="sm sm-twitter" target="_blank"><img class="sm-twitter" src="twitter.png"></a>
+        <a href="https://www.instagram.com/alali_ay/" class="sm sm-instagram" target="_blank"><img class="sm-instagram" src="instagram.png"></a>        
+        <a href="https://www.linkedin.com/in/ali-alali-a4067096/" class="sm sm-linkein" target="_blank"><img class="sm-linkein" src="linkein.png"></a>                
+        <br>&copy; 2019 By Ali AlAli
+      </div>
+    </footer>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

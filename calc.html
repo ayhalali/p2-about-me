@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Ali AlAli">
+  <!-- <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico"> -->
+
+  <title>Interactive app</title>
+
+  <!-- <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/"> -->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="starter-template.css" rel="stylesheet">
+</head>
+
+
+<body class = "bgimg">
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="calc.html">Interactive app</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <header class="container-fluid">
+    <h1>Ali AlAli</h1>
+
+  </header>
+  <hr />
+
+  <main class="container mt-5 flex-fill">
+    <!--Container has rows - first row -->
+    <div class="row">
+
+      <!--Rows have columns - column 1 (7/12) -->
+      <div class="col-md-7 mb-4">
+
+        <h2>Calculator app!</h2>
+        <hr>
+
+        <fieldset class="mt-4">
+          <label for="guest">Enter your name (2 to 40 characters):</label>
+          <input id="guest" type="text" minlength="2" maxlength="40" value="" placeholder="Your name" autofocus>
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <label for="firstNumber">Enter first number (1 to 100):</label>
+          <input id="firstNumber" type="number" min="1" max="100">
+        </fieldset>
+
+        <fieldset class="mt-4">
+          <label for="secondNumber">Enter second number (1 to 100):</label>
+          <input id="secondNumber" type="number" min="1" max="100">
+        </fieldset>
+
+        <fieldset class="mt-5">
+          <label for="thirddNumber">Enter a fehrenhite:</label>
+          <input id="thirddNumber" type="number">
+        </fieldset>
+
+
+      </div>
+      <!--end column 1-->
+
+      <!--column 2 (5/12) -->
+      <div class="col-md-5 mb-4">
+        <h2>Try these:</h2>
+        <hr>
+        <button id="addButton" class="btn btn-primary">Add</button>
+        <button id="multiplyButton" class="btn btn-primary">Multiply</button>
+        <button id="celsiusButton" class="btn btn-outline-success">Celsius</button>
+
+        <hr>
+        <p id="result"></p>
+
+      </div>
+      <!-- end column 2-->
+
+    </div>
+    <!-- end row 1 -->
+
+
+  </main><!-- /.container -->
+
+  <footer class="container-fluid">
+    <div id="footer">
+      <a href="https://www.facebook.com/ayhalali" class="sm sm-facebook" target="_blank"><img class="sm-facebook"
+          src="facebook.png"></a>
+      <a href="https://twitter.com/Al3liay" class="sm sm-twitter" target="_blank"><img class="sm-twitter"
+          src="twitter.png"></a>
+      <a href="https://www.instagram.com/alali_ay/" class="sm sm-instagram" target="_blank"><img class="sm-instagram"
+          src="instagram.png"></a>
+      <a href="https://www.linkedin.com/in/ali-alali-a4067096/" class="sm sm-linkein" target="_blank"><img
+          class="sm-linkein" src="linkein.png"></a>
+      <br> &copy; 2019 By Ali AlAli
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="../../assets/js/vendor/popper.min.js"></script>
+  <script src="src/main.js"></script>
+</body>
+
+</html>

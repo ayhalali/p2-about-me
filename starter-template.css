@@ -1,0 +1,111 @@
+body {
+  padding-top: 5rem; 
+}
+
+body, html {
+  height: 100%;
+}
+
+.img-circle {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 50%;
+  max-width:15%;
+  float: right;
+  
+} 
+
+.video-wrapper {
+  width: 100%;
+}
+
+section {
+  width: 2px;
+  margin: 1rem;
+  padding: 2rem;
+  background-color: rgba(115, 141, 255, 0.404);
+  border-radius: 1em;
+}
+
+
+.bgimg {
+  /* background-image: url('cloudiness-clouds-cloudy-2835562.jpg'); */
+  background-color: rgb(191, 220, 255); 
+  height: 100%;
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#footer {
+  text-align: center;
+  background-color: rgb(202, 198, 255);
+}
+
+.sm {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: right;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+  
+.sm:hover {
+  opacity: 0.7;
+}
+  
+.sm-facebook {
+  color: white;
+}
+  
+.sm-twitter {
+  color: white;
+}
+  
+.sm-linkedin {
+  color: white;
+}
+  
+.sm-instagram {
+  color: white;
+}
+  
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 10px;
+} 
+
